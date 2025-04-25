@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:padding="0.2dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icono_item_nota">
+            </androidx.appcompat.widget.AppCompatImageView>
+
+
+
+        </LinearLayout>
+        
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="7dp">
+
+            <TextView
+                android:id="@+id/Id_nota_item"
+                android:text="@string/Id_nota_item"
+                android:visibility="gone"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Uid_usuario_item"
+                android:text="@string/Uid_usuario_item"
+                android:visibility="gone"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Correo_usuario_item"
+                android:text="@string/Correo_usuario_item"
+                android:visibility="gone"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Fecha_hora_registro_item"
+                android:text="@string/Fecha_hora_registro_item"
+                android:visibility="gone"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Titulo_item"
+                android:text="@string/Titulo_item"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Descripcion_item"
+                android:text="@string/Descripcion_item"
+                android:textSize="18sp"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/Fecha_item"
+                android:text="@string/Fecha_item"
+                android:textSize="18sp"
+                android:fontFamily="@font/worksans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ESTADO DE LA NOTA-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/Tarea_finalizada_item"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:background="#16A085"
+                    android:visibility="gone">
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/Tarea_no_finalizada_item"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:background="#E74C3C"
+                    android:visibility="gone">
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <TextView
+                    android:id="@+id/Estado_item"
+                    android:text="@string/Estado_item"
+                    android:fontFamily="@font/worksans"
+                    android:textSize="20sp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173334569448",
+    "project_id": "agenda-app-e149e",
+    "storage_bucket": "agenda-app-e149e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173334569448:android:bc250d5371edc2f2dbc45d",
+        "android_client_info": {
+          "package_name": "com.joordex.agenda_online"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIs03fOQ8iamjoi06eYLC3vIkNelDByfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

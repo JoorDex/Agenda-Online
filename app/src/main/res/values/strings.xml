@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Agenda Online</string>
+
+    <!--MAIN-->
+    <string name="Btn_Login">Login</string>
+    <string name="Btn_Registro">Registro</string>
+
+    <!--ACTIVIDAD REGISTRO-->
+    <string name="CrearCuentaTXT">Crear una cuenta</string>
+    <string name="NombreEt">Nombres</string>
+    <string name="CorreoEt">Correo electronico</string>
+    <string name="ContraEt">Contraseña</string>
+    <string name="ConfirmarContraEt">Confirmar contraseña</string>
+    <string name="RegistrarUsuario">Registrar</string>
+    <string name="TengoUnaCuentaTXT">Tengo una cuenta</string>
+
+    <!--ACTIVIDAD LOGIN-->
+    <string name="IniciarSesionTXT">Iniciar sesión</string>
+    <string name="CorreoLogin">Correo</string>
+    <string name="PassLogin">Contraseña</string>
+    <string name="Btn_Logeo">Ingresar</string>
+    <string name="UsuarioNuevoTXT">¿No tienes una cuenta? Registrate aqui</string>
+
+    <!--MENU PRINCIPAL-->
+    <string name="BienvenidoPrincipal">Bienvenido(a)</string>
+    <string name="UidPrincipal"> -- </string>
+    <string name="NombresPrincipal"> -- </string>
+    <string name="CorreoPrincipal"> -- </string>
+    <string name="AgregarNotas">Agregar</string>
+    <string name="ListarNotas">Mis Notas</string>
+    <string name="Archivados">Archivados</string>
+    <string name="Perfil">Perfil</string>
+    <string name="AcerdaDe">Acerca De</string>
+    <string name="CerrarSesion">Salir</string>
+
+    <!--AGREGAR NOTA-->
+    <string name="Uid_usuario">Uid del usuario</string>
+    <string name="Correo_usuario">Correo de usuario</string>
+    <string name="Fecha_hora_actual_TXT">Fecha de registro</string>
+    <string name="Fecha_hora_actual">Fecha y hora actual</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="btn_Calendario">Calendario</string>
+    <string name="Fecha">00/00/0000</string>
+    <string name="Estado">No finalizado</string>
+
+    <!--MENU-->
+    <string name="Agregar_nota_BD">Agregar</string>
+    <string name="Actualizar_nota_BD">Actualizar</string>
+
+    <!--ITEM NOTA-->
+    <string name="Id_nota_item">Id nota</string>
+    <string name="Uid_usuario_item">Uid del usuario</string>
+    <string name="Correo_usuario_item">Correo de usuario</string>
+    <string name="Fecha_hora_registro_item">Fecha y hora registro</string>
+    <string name="Titulo_item">Titulo</string>
+    <string name="Descripcion_item">Descripcion</string>
+    <string name="Fecha_item">00/00/0000</string>
+    <string name="Estado_item">No finalizado</string>
+
+    <!--CUADRO DE DIALOGO-->
+    <string name="ElijaOpcionTXT">Elija una opción</string>
+    <string name="CD_Eliminar">Eliminar</string>
+    <string name="CD_Actualizar">Actualizar</string>
+
+    <!-- ACTUALIZAR NOTA -->
+    <string name="Id_nota_A">ID Nota</string>
+    <string name="Uid_usuario_A">Uid del usuario</string>
+    <string name="Correo_usuario_A">Correo de usuario</string>
+    <string name="Fecha_registro_A">Fecha de registro</string>
+    <string name="Titulo_A">Titulo</string>
+    <string name="Descripcion_A">Descripcion</string>
+    <string name="btn_Calendario_A">Calendario</string>
+    <string name="Fecha_A">00/00/0000</string>
+    <string name="Estado_A">No finalizado</string>
+    <string name="Estado_nuevo"> -- </string>
+
+    <!--SPINNER DEL ESTADO-->
+    <string-array name="Estados_nota">
+        <item>No finalizado</item>
+        <item>Finalizado</item>
+    </string-array>
+
+    <!-- INFORMACION -->
+    <string name="Desarrollador">Desarrollado por: Jorge Díaz Colorado</string>
+    <string name="CorreoSoporte">Soporte: diazcoloradojorge@gmail.com</string>
+    <string name="Version">Versión: 0.1</string>
+    <string name="Extra">Nota: Por falta de tiempo dos opciones no han sido agregadas :)</string>
+    <string name="EntendidoInfo">Entendido</string>
+
+</resources>
