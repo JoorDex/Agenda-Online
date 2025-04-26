@@ -33,7 +33,7 @@
   <h2>Project images</h2>
 </div>
 
-![image alt]()
+![image alt](https://github.com/JoorDex/Agenda-Online/blob/2c2703042bece3b493dd67719d7411fc577007aa/Agenda%20Online/Horizontal%20mode%201.jpg)
 ㅤ
-![image alt]()
+![image alt](https://github.com/JoorDex/Agenda-Online/blob/2c2703042bece3b493dd67719d7411fc577007aa/Agenda%20Online/Horizontal%20mode%202.jpg)
 ㅤ
