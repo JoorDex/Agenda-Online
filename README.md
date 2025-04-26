@@ -37,8 +37,3 @@
 ㅤ
 ![image alt]()
 ㅤ
-![image alt]()
-ㅤ
-![image alt]()
-ㅤ
-![image alt]()
